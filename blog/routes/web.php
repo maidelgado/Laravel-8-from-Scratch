@@ -25,5 +25,4 @@ Route::get('posts/{post:slug}', function (Post $post) { // Post::where('slug', $
     return view('post', [
         'post' => $post
     ]);
-
 });
